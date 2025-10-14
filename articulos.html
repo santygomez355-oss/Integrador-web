@@ -1,25 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articulos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <section class="contenedor-articulos"> 
-        <div class="articulo">
-            <img src="Imagenes/Rosa.webp" alt="Rosa roja">
-            <h3>Rosa Roja</h3>
-        </div>
-        <div class="articulo">
-            <img src="Imagenes/rosa 2.webp" alt="Rosa amariila">
-            <h3>Rosa Amarilla</h3>
-        </div>
-        <div class="articulo">
-            <img src="Imagenes/rosa 3.webp" alt="Rosa naranja">
-            <h3>Rosa Naranja</h3>
+    <!-- Encabezado -->
+    <header class="Encabezado">
+        <img src="Imagenes/Logo.webp" alt="Logo de Vivero" class="logo">
+        <h1 class="titulo">Vivero Los Primos</h1>
+
+        <nav class="Menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Artículos -->
+    <section class="Articulos">
+        <h2>Nuestros Productos</h2>
+        <p>Descubrí nuestras flores y macetas ideales para darle vida a tu hogar.</p>
+
+        <!-- Contenedor principal con Flexbox -->
+        <div class="ContenedorArticulos">
+
+            <!-- Columna 1: Flores (tus rosas) -->
+            <div class="Columna">
+                <h3>Flores</h3>
+                <p>Disponemos de una amplia variedad de rosas de interior y exterior, ideales para decorar el ambiente
+                    de su hogar y regalar.</p>
+                <section class="contenedor-articulos">
+                    <div class="articulo">
+                        <img src="Imagenes/Rosa.webp" alt="Rosa roja">
+                        <h4>Rosa Roja</h4>
+                        <h5>Informacion
+                            Nombre científico: Rosa spp.
+                            Familia: Rosaceae.
+                            Origen: Asia, aunque hoy se cultivan en todo el mundo.
+                            Significado simbólico:
+                            Amor y pasión (el más tradicional).
+                            Respeto y admiración.
+                            Valentía y devoción.</h5>
+                    </div>
+                    <div class="articulo">
+                        <img src="Imagenes/rosa 2.webp" alt="Rosa amarilla">
+                        <h4>Rosa Amarilla</h4>
+                        <h5>Informacion
+                            Nombre científico: Rosa x hybrida.
+                            Familia: Rosaceae.
+                            Origen: Asia, aunque con un número menor de especies nativas de Europa, Norteamérica y
+                            África noroccidental.
+                            Significado simbólico:
+                            Amistad y Alegría.
+                            Optimismo y Vitalidad.
+                            Celebración y Éxito.</h5>
+                    </div>
+                    <div class="articulo">
+                        <img src="Imagenes/rosa 3.webp" alt="Rosa naranja">
+                        <h4>Rosa Naranja</h4>
+                        <h5>Informacion
+                            Nombre científico: Rosa x hybrida.
+                            Familia: Rosaceae.
+                            Origen: Asia, aunque con un número menor de especies nativas de Europa, Norteamérica.
+                            Significado simbólico:
+                            Pasión y Fascinación.
+                            Entusiasmo Ardiente.
+                            Puente entre Amistad y Amor.</h5>
+                    </div>
+                </section>
+            </div>
+            <!-- Columna 2: Macetas -->
+            <section class="contenedor-articulos">
+                <div class="Columna">
+                    <h3>Macetas</h3>
+                    <p>Disponemos de una amplia variedad de macetas de interior y exterior, ideales para decorar el
+                        ambiente de su hogar.</p>
+                    <div class="articulo">
+                        <img src="Imagenes/maceta1.webp" alt="Modelo 1">
+                        <h4>Maceta interior</h4>
+                        <h5>Informacion
+                            Nombre: Maceta.
+                            material: Plastico.
+                            Origen: Argentina.
+                            vienen de varios colores y tamaños.</h5>
+                    </div>
+
+                    <div class="articulo">
+                        <img src="Imagenes/maceta2.webp" alt="Modelo 2">
+                        <h4>Maceta interior</h4>
+                        <h5>Informacion
+                            Nombre: Maceta.
+                            material: Plastico.
+                            Origen: Argentina.
+                            vienen de varios colores y tamaños.</h5>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Columna 3: Macetas -->
+            <div class="Columna">
+                <h3>Macetas</h3>
+                <p>Macetas de cerámica, barro y plástico en múltiples tamaños y colores. Perfectas para combinar con tus
+                    plantas favoritas.</p>
+                <img src="Imagenes/macetas.webp" alt="Macetas">
+            </div>
         </div>
     </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Vivero Los Primos - Todos los derechos reservados</p>
+    </footer>
 </body>
+
 </html>

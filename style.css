@@ -68,3 +68,39 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-size: 1.3rem;
   margin-bottom: 5px;
 }
+
+.contenedor-articulos {
+  display: flex;
+  justify-content:baseline;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 30px;
+  background-color: #f8f9f4;
+}
+
+.articulo {
+  flex: 1 1 300px; 
+  max-width: 350px;
+  background-color: #610909;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.articulo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Imagen dentro de cada artículo */
+.articulo img {
+  width: 100%;
+  max-height: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
