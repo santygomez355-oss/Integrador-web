@@ -27,10 +27,11 @@
 }
 
 .titulo{
-    color: #000000;
+    color: #000;
     font-size: 4em;
+    margin-right: 20px; 
+    flex-grow: 1; 
     text-align: center;
-    flex: auto;
 }
 
 .contenedor-articulos {
