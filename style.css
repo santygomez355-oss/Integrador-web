@@ -1,5 +1,5 @@
 .logo{
-    width: 70px;
+    width: 250px;
     height: auto;
     border-radius: 50px;
 }
@@ -21,7 +21,7 @@
 }
 
 .titulo{
-    font-size: 1.8em;
+    font-size: 4em;
     text-align: center;
     flex: auto;
 }
@@ -107,7 +107,7 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 .FormularioContacto h2{
-color: #4caf50;
+color: #2f5f30;
 text-align: center;
 margin-bottom: 15px;
 }
@@ -149,7 +149,7 @@ button[type="submit"]:hover {
   margin-top: 20px;
   background-color: #e6f4ea;
   padding: 15px;
-  border: 1px solid #4caf50;
+  border: 1px solid;
   border-radius: 8px;
 }
 
