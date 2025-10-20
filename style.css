@@ -12,7 +12,13 @@
 }
 
 .Encabezado{
-    display: flexbox;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('Imagenes/Logo.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: #2e7d32;
+  
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2f5f30;
@@ -21,6 +27,7 @@
 }
 
 .titulo{
+    color: #000000;
     font-size: 4em;
     text-align: center;
     flex: auto;
@@ -64,7 +71,7 @@
 
 /* Título */
 .articulo h3 {
-  color: #fffefd; 
+  color: #2f5f30;
   font-size: 1.3rem;
   margin-bottom: 5px;
 }
@@ -76,7 +83,7 @@
   flex-wrap: wrap;
   gap: 25px;
   padding: 30px;
-  background-color: #f8f9f4;
+  background-color: #f4fcd4;
 }
 
 .articulo {
