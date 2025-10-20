@@ -42,9 +42,9 @@
   background-color: #610909;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  padding: 20px;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,1);
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Efecto hover */
@@ -87,13 +87,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   padding: 20px;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Efecto hover */
-.articulo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Imagen dentro de cada artículo */
@@ -102,5 +96,64 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-height: 320px;
   border-radius: 10px;
   object-fit: cover;
+  margin-bottom: 10px;
+}
+.FormularioContacto{
+  max-width: 600px;
+  margin: auto;
+  background-color: #f3f8f3;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.FormularioContacto h2{
+color: #4caf50;
+text-align: center;
+margin-bottom: 15px;
+}
+.campo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.campo label{
+font-weight: bold;
+margin-bottom: 5px;
+}
+.campo input, .campo textarea{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+.campo input:focus,
+.campo textarea:focus {
+  outline: none;
+  border-color: #2f5f30;
+  box-shadow: 0 0 5px rgba(76,175,80,0.5);
+}
+
+button[type="submit"]{
+  background-color: #2f5f30;
+  color: rgb(1, 1, 1);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.datos-enviados {
+  margin-top: 20px;
+  background-color: #e6f4ea;
+  padding: 15px;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+}
+
+.datos-enviados h3 {
+  color: #2e7d32;
   margin-bottom: 10px;
 }

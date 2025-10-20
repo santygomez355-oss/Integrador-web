@@ -3,11 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vivero - Los Primos</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="Encabezado">
+        <img src="Imagenes/Logo.webp" alt="Logo vivero" class="logo">
+        <h1 class="titulo"> Vivero Los Primos</h1>
+        <nav class="Menu">
+            <ul>
+                <li> <a href="index.html"> Inicio</a></li>
+                <li> <a href="articulos.html"> Articulos</a></li>
+                <li> <a href="contactos.html"> Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="FormularioContacto">
+        <h2>Contactanos</h2>
+        <p>Completa el siguiente fomulario y te respondemos en breve</p>
+        <form id="formContacto" novalidate>
+            <div class="campo"> 
+                <!--Campo nombre -->
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Santi Gomez">
+                <small class="error" id="error-nombre"></small>
+            </div>
+            <!-- Campo Email-->
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="santi@gmail.com">
+                <small class="error" id="error-email"></small>
+            </div>
+            <!-- Telefono -->
+             <div class="campo">
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" required placeholder="2664536343">
+                <small class="error" id="error-telefono"></small>
+             </div>
+             <!-- Mensaje -->
+             <div class="campo">
+                <label for="mensaje">Mensaje (opcional):</label>
+                <textarea id="mensaje" name="mensaje" rows="4" maxlength="200" placeholder="Escribí tu consulta..."></textarea>
+            </div>
+              <!-- Button -->
+               <button type="submit">Enviar</button>
+            </form>
+            <div id="resultado"></div>
+    </main>
+    <footer>
+        <p>© 2025 Vivero Los Primos - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
