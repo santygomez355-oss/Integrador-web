@@ -165,3 +165,39 @@ button[type="submit"]:hover {
   color: #2e7d32;
   margin-bottom: 10px;
 }
+
+.Carrusel {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #f0f8f5;
+  padding: 20px;
+}
+
+.carrusel-container img {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.5s ease;
+}
+
+.Botones {
+  margin-top: 15px;
+}
+
+.Botones button {
+  background-color: #2f5f30;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Botones button:hover {
+  background-color: #45a049;
+}
